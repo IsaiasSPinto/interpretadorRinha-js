@@ -1,0 +1,57 @@
+{
+  "name": ".\\examples\\if.rinha",
+  "expression": {
+    "kind": "Print",
+    "value": {
+      "kind": "If",
+      "condition": {
+        "kind": "Binary",
+        "lhs": {
+          "kind": "Int",
+          "value": 1,
+          "location": {
+            "start": 10,
+            "end": 11,
+            "filename": ".\\examples\\if.rinha"
+          }
+        },
+        "op": "Eq",
+        "rhs": {
+          "kind": "Int",
+          "value": 1,
+          "location": {
+            "start": 15,
+            "end": 16,
+            "filename": ".\\examples\\if.rinha"
+          }
+        },
+        "location": {
+          "start": 10,
+          "end": 16,
+          "filename": ".\\examples\\if.rinha"
+        }
+      },
+      "then": {
+        "kind": "Str",
+        "value": "verdadeiro",
+        "location": {
+          "start": 23,
+          "end": 35,
+          "filename": ".\\examples\\if.rinha"
+        }
+      },
+      "otherwise": {
+        "kind": "Str",
+        "value": "falso",
+        "location": {
+          "start": 49,
+          "end": 56,
+          "filename": ".\\examples\\if.rinha"
+        }
+      },
+      "location": { "start": 6, "end": 59, "filename": ".\\examples\\if.rinha" }
+    },
+    "location": { "start": 0, "end": 60, "filename": ".\\examples\\if.rinha" }
+  },
+  "location": { "start": 0, "end": 60, "filename": ".\\examples\\if.rinha" }
+}

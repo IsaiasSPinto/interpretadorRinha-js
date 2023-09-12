@@ -1,0 +1,85 @@
+{
+  "name": ".\\examples\\let.rinha",
+  "expression": {
+    "kind": "Let",
+    "name": {
+      "text": "numero",
+      "location": {
+        "start": 4,
+        "end": 10,
+        "filename": ".\\examples\\let.rinha"
+      }
+    },
+    "value": {
+      "kind": "Int",
+      "value": 5,
+      "location": {
+        "start": 13,
+        "end": 14,
+        "filename": ".\\examples\\let.rinha"
+      }
+    },
+    "next": {
+      "kind": "Let",
+      "name": {
+        "text": "texto",
+        "location": {
+          "start": 21,
+          "end": 26,
+          "filename": ".\\examples\\let.rinha"
+        }
+      },
+      "value": {
+        "kind": "Str",
+        "value": "o numero é :",
+        "location": {
+          "start": 29,
+          "end": 44,
+          "filename": ".\\examples\\let.rinha"
+        }
+      },
+      "next": {
+        "kind": "Print",
+        "value": {
+          "kind": "Binary",
+          "lhs": {
+            "kind": "Var",
+            "text": "texto",
+            "location": {
+              "start": 55,
+              "end": 60,
+              "filename": ".\\examples\\let.rinha"
+            }
+          },
+          "op": "Add",
+          "rhs": {
+            "kind": "Var",
+            "text": "numero",
+            "location": {
+              "start": 63,
+              "end": 69,
+              "filename": ".\\examples\\let.rinha"
+            }
+          },
+          "location": {
+            "start": 55,
+            "end": 69,
+            "filename": ".\\examples\\let.rinha"
+          }
+        },
+        "location": {
+          "start": 49,
+          "end": 70,
+          "filename": ".\\examples\\let.rinha"
+        }
+      },
+      "location": {
+        "start": 17,
+        "end": 70,
+        "filename": ".\\examples\\let.rinha"
+      }
+    },
+    "location": { "start": 0, "end": 70, "filename": ".\\examples\\let.rinha" }
+  },
+  "location": { "start": 0, "end": 70, "filename": ".\\examples\\let.rinha" }
+}

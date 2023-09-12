@@ -1,0 +1,8 @@
+let numero1 = 5;
+let numero2 = 10;
+let numero3 = 15;
+let soma = fn(n1 , n2) => {
+    n1 + n2 + numero3
+};
+
+print(soma(numero1,numero2))

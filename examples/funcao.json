@@ -1,0 +1,215 @@
+{
+  "name": ".\\examples\\funcao.rinha",
+  "expression": {
+    "kind": "Let",
+    "name": {
+      "text": "numero1",
+      "location": {
+        "start": 4,
+        "end": 11,
+        "filename": ".\\examples\\funcao.rinha"
+      }
+    },
+    "value": {
+      "kind": "Int",
+      "value": 5,
+      "location": {
+        "start": 14,
+        "end": 15,
+        "filename": ".\\examples\\funcao.rinha"
+      }
+    },
+    "next": {
+      "kind": "Let",
+      "name": {
+        "text": "numero2",
+        "location": {
+          "start": 22,
+          "end": 29,
+          "filename": ".\\examples\\funcao.rinha"
+        }
+      },
+      "value": {
+        "kind": "Int",
+        "value": 10,
+        "location": {
+          "start": 32,
+          "end": 34,
+          "filename": ".\\examples\\funcao.rinha"
+        }
+      },
+      "next": {
+        "kind": "Let",
+        "name": {
+          "text": "numero3",
+          "location": {
+            "start": 41,
+            "end": 48,
+            "filename": ".\\examples\\funcao.rinha"
+          }
+        },
+        "value": {
+          "kind": "Int",
+          "value": 15,
+          "location": {
+            "start": 51,
+            "end": 53,
+            "filename": ".\\examples\\funcao.rinha"
+          }
+        },
+        "next": {
+          "kind": "Let",
+          "name": {
+            "text": "soma",
+            "location": {
+              "start": 60,
+              "end": 64,
+              "filename": ".\\examples\\funcao.rinha"
+            }
+          },
+          "value": {
+            "kind": "Function",
+            "parameters": [
+              {
+                "text": "n1",
+                "location": {
+                  "start": 70,
+                  "end": 72,
+                  "filename": ".\\examples\\funcao.rinha"
+                }
+              },
+              {
+                "text": "n2",
+                "location": {
+                  "start": 75,
+                  "end": 77,
+                  "filename": ".\\examples\\funcao.rinha"
+                }
+              }
+            ],
+            "value": {
+              "kind": "Binary",
+              "lhs": {
+                "kind": "Var",
+                "text": "n1",
+                "location": {
+                  "start": 89,
+                  "end": 91,
+                  "filename": ".\\examples\\funcao.rinha"
+                }
+              },
+              "op": "Add",
+              "rhs": {
+                "kind": "Binary",
+                "lhs": {
+                  "kind": "Var",
+                  "text": "n2",
+                  "location": {
+                    "start": 94,
+                    "end": 96,
+                    "filename": ".\\examples\\funcao.rinha"
+                  }
+                },
+                "op": "Add",
+                "rhs": {
+                  "kind": "Var",
+                  "text": "numero3",
+                  "location": {
+                    "start": 99,
+                    "end": 106,
+                    "filename": ".\\examples\\funcao.rinha"
+                  }
+                },
+                "location": {
+                  "start": 94,
+                  "end": 106,
+                  "filename": ".\\examples\\funcao.rinha"
+                }
+              },
+              "location": {
+                "start": 89,
+                "end": 106,
+                "filename": ".\\examples\\funcao.rinha"
+              }
+            },
+            "location": {
+              "start": 67,
+              "end": 109,
+              "filename": ".\\examples\\funcao.rinha"
+            }
+          },
+          "next": {
+            "kind": "Print",
+            "value": {
+              "kind": "Call",
+              "callee": {
+                "kind": "Var",
+                "text": "soma",
+                "location": {
+                  "start": 120,
+                  "end": 124,
+                  "filename": ".\\examples\\funcao.rinha"
+                }
+              },
+              "arguments": [
+                {
+                  "kind": "Var",
+                  "text": "numero1",
+                  "location": {
+                    "start": 125,
+                    "end": 132,
+                    "filename": ".\\examples\\funcao.rinha"
+                  }
+                },
+                {
+                  "kind": "Var",
+                  "text": "numero2",
+                  "location": {
+                    "start": 133,
+                    "end": 140,
+                    "filename": ".\\examples\\funcao.rinha"
+                  }
+                }
+              ],
+              "location": {
+                "start": 120,
+                "end": 141,
+                "filename": ".\\examples\\funcao.rinha"
+              }
+            },
+            "location": {
+              "start": 114,
+              "end": 142,
+              "filename": ".\\examples\\funcao.rinha"
+            }
+          },
+          "location": {
+            "start": 56,
+            "end": 142,
+            "filename": ".\\examples\\funcao.rinha"
+          }
+        },
+        "location": {
+          "start": 37,
+          "end": 142,
+          "filename": ".\\examples\\funcao.rinha"
+        }
+      },
+      "location": {
+        "start": 18,
+        "end": 142,
+        "filename": ".\\examples\\funcao.rinha"
+      }
+    },
+    "location": {
+      "start": 0,
+      "end": 142,
+      "filename": ".\\examples\\funcao.rinha"
+    }
+  },
+  "location": {
+    "start": 0,
+    "end": 142,
+    "filename": ".\\examples\\funcao.rinha"
+  }
+}
